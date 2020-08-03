@@ -1,14 +1,31 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "lib": ["es2015", "dom"],
-    "module": "commonjs",
     "jsx": "react",
-    "outDir": "build",
-    "sourceMap": false,
-    "declaration": false,
-    "resolveJsonModule": true,
-    "noImplicitAny": false
+    "baseUrl": "src",
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "lib": ["es2015", "dom"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules"
+    ],
+    "types": [
+      "node",
+      "mocha",
+      "chai"
+    ]
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "src/components/_Archive",
+    "node_modules",
+    "common",
+    "*/**/*.spec.ts"
+  ],
+  "diagnostics": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true
 }

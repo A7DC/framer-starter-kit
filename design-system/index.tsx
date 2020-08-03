@@ -1,4 +1,4 @@
-export { Button, Props as ButtonProps } from "./components/Button"
-export { Input, Props as InputProps } from "./components/Input"
-export { Toggle, Props as ToggleProps } from "./components/Toggle"
-export { Tooltip, Props as TooltipProps } from "./components/Tooltip"
+// export { TestClass, IProps as TestClassProps } from './components/TestClass'
+export { TestComponent, IProps as TestComponentProps } from './components/TestComponent'
+
+// component-importer init ../design-system --index ../design-system/index.tsx --tsconfig ../design-system/tsconfig.json
