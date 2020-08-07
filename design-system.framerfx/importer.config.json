@@ -1,0 +1,15 @@
+{
+    "mode": "typescript",
+    "packageName": "../design-system",
+    "tsConfigPath": "../design-system/tsconfig.json",
+    "rootFiles": [
+        "../design-system/index.tsx"
+    ],
+    "additionalImports": [],
+    "out": "code/",
+    "components": {
+        "TestComponent": {
+            "ignore": false
+        }
+    }
+}
