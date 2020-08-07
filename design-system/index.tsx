@@ -1,4 +1,4 @@
-// export { TestClass, IProps as TestClassProps } from './components/TestClass'
+export { TestClass, IProps as TestClassProps } from './components/TestClass'
 export { TestComponent, IProps as TestComponentProps } from './components/TestComponent'
 
-// component-importer init ../design-system --index ../design-system/index.tsx --tsconfig ../design-system/tsconfig.json
+// component-importer init "../app" --index ../app/index.tsx --tsconfig ../app/tsconfig.json
